@@ -1,32 +1,17 @@
 import './App.css';
+import Button from './componentes/button';
+import Footer from './componentes/footer';
+import Form from './componentes/form';
+import Header from './componentes/header';
 
 function App() {
   return (
     <>
-    <body>
-    <div class='center' >
-     <h1 class='login'>Login</h1>
-    </div>
-  
-  <div class='form'>
-    <label for="email">E-mail</label>
-    <input type='email' class='email' require />
-    <div>
-    <label for="password">Password</label>
-    <input type="password" id="inputPassword" require />
-    </div>
-  </div>
+    <Header></Header>
+    <Form></Form>
+    <Button></Button>
+    <Footer></Footer>
 
-  
-
-    <div class='footer'>
-    <p>Políticas de privacidad</p>
-    </div>
- 
-    </body>
-  
-  
-  
   </>
   );
 }

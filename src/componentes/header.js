@@ -1,13 +1,13 @@
-import React  from "react";
+import React, { Component } from 'react';
 
-const Header =()=>{
-    return (
-<>
-<h1>Login</h1>
-
-</>
-
-    );
+class Header extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Login</h1>
+            </div>
+        );
+    }
 }
 
-export default Header
+export default Header;

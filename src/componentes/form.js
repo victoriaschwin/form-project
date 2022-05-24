@@ -1,20 +1,28 @@
-import React  from "react";
-
-const Form = ()=>{
-    return(
-<>
-<form>
-<input type='email' requiere></input>
-<br/>
-<input type='password' requiere></input>
-<br/>
-
-</form>
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 
-
-</>
-    );
+class Form extends Component {
+    render() {
+        return (
+            <div>
+                
+                <form>
+                <input type='email' requiere></input>
+                <br/>
+                <input type='password' requiere></input>
+                <br/>
+                </form>
+            
+            </div>
+        );
+    }
 }
 
-export default Form
+
+Form.propTypes = {
+
+};
+
+
+export default Form;
