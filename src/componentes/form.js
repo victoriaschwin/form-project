@@ -1,3 +1,8 @@
+import React  from "react";
+
+const Form = ()=>{
+    return(
+<>
 <form>
 <input type='email' requiere></input>
 <br/>
@@ -5,3 +10,11 @@
 <br/>
 
 </form>
+
+
+
+</>
+    );
+}
+
+export default Form

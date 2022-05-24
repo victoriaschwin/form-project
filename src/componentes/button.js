@@ -1,1 +1,14 @@
-<button type ='submit'>Enviar</button>
+import React  from "react";
+
+const Button=() =>{
+
+    return(
+        <>
+        
+        <button type ='submit'>Enviar</button>
+        
+        </>
+    );
+}
+
+export default Button;
