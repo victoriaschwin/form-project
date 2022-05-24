@@ -2,31 +2,28 @@ import './App.css';
 
 function App() {
   return (
-  <>
-    <div >
-     <h1>Login</h1>
+    <>
+    <body>
+    <div class='center' >
+     <h1 class='login'>Login</h1>
     </div>
-  <div>
-  <div class="mb-3 row">
-    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com" />
-    </div>
-  </div>
-  <div class="mb-3 row">
-    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword" />
+  
+  <div class='form'>
+    <label for="email">E-mail</label>
+    <input type='email' class='email' require />
+    <div>
+    <label for="password">Password</label>
+    <input type="password" id="inputPassword" require />
     </div>
   </div>
 
   
 
-    <div>
+    <div class='footer'>
     <p>Políticas de privacidad</p>
     </div>
-  </div>
-  
+ 
+    </body>
   
   
   

@@ -1,1 +1,23 @@
+.login{
+  font-family: Verdana;
+  font-size: 50px;
+  text-align: center;
+};
+.body{
+  background-color: aqua;
+}
+.form{
+ display:justify;
+  background-color: aquamarine;
+  
+}
 
+.email, .password{
+align-items: flex-start ;
+font-family: Helvetica;
+}
+
+.footer{
+  text-align: right;
+
+}
